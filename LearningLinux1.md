@@ -45,9 +45,12 @@
 - 你寫的`程式(program)`執行時就成為`行程(porcess)`
 - 👍ps:(process status）顯示當前行程的狀態，類似於 windows 的工作管理員。
   - 可以使用ps 指令來尋找正在執行中的處理程序，並顯示這些處理程序的相關資訊。
-  - -w 顯示加寬(可以顯示較多的資訊)
+  - ps -w 顯示加寬(可以顯示較多的資訊)
+  - ps -A 列出所有的進程
   - ps -au 顯示較詳細的資訊
   - ps -aux 顯示所有包含其他使用者的行程
+  - [Linux ps 命令](https://www.runoob.com/linux/linux-comm-ps.html)
+  - [Linux ps command - 20 Real Life Examples](https://www.digitalocean.com/community/tutorials/linux-ps-command)
 
 
 ### 軟體安裝與管理(software package management )

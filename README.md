@@ -80,7 +80,7 @@
   - 👍4.3.HTTP Basic Authentication(認證)封包分析{Network101::NET3} [線上教材](./Linux/3_3_使用wireshark分析HTTPBasicAuthentication.md) [[YOUTUBE教學影片]](https://youtu.be/IH3Q7jdDX5s)
   - 4.4.HTTP封包分析之檢視出user使用的瀏覽器版本號{Network101::NET4} [線上教材](./Linux/3_4_使用wireshark檢視出user使用的瀏覽器版本號.md) [[YOUYUBE錄影]](https://youtu.be/GnufKfXOSG4)
 
-## 其他linux版本下載
+## [其他linux版本下載](https://ksunextcloud.duckdns.org/index.php/s/mXWBcNaYMrcoL9Y)
 - Ubuntu 22.04 Server.ova Username: ksu Password: ksu202208
 - Ubuntu 22.04 Desktop.ova Username: ksu Password: ksu202208
 - CentOS 7 Desktop.ova Username: ksu Password: ksu202208

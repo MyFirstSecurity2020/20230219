@@ -52,8 +52,8 @@
   - 連線到LINUX CTF去學習
   - 使用線上工具 [Online Linux Terminal](https://www.tutorialspoint.com/linux_terminal_online.php)
   - 使用虛擬機匯入LINUX學習 
-- 快速認識Linux作業系統 [線上教材](./Linux/1.基礎linux入門.MD) [[YOUTUBE教學錄影]](https://youtu.be/0T4o81Vghio)
-- LINUX指令(commands) == >  Linux 101 + Linux 102
+- 1.快速認識Linux作業系統 [線上教材](./Linux/1.基礎linux入門.MD) [[YOUTUBE教學錄影]](https://youtu.be/0T4o81Vghio)
+- 2.學習LINUX基本指令(commands) == >  Linux 101 + Linux 102
   - [如何透過Windows連線到CTF平台解題](https://github.com/MyFirstSecurity2020/SecurityFoscusOnline2023/blob/main/A2_Linux%E8%B3%87%E5%AE%89%E6%8A%80%E8%A1%93%E5%85%A5%E9%96%80/%E5%A6%82%E4%BD%95%E9%80%8F%E9%81%8EWindows%E9%80%A3%E7%B7%9A%E5%88%B0CTF%E5%B9%B3%E5%8F%B0%E8%A7%A3%E9%A1%8C.md) [[YOUTUBE教學錄影]](https://youtu.be/cULwZeGliuA)
   - Linux指令入門[線上教材](https://github.com/MyFirstSecurity2020/20230211/blob/main/Linux/2_0_.Linux%E5%9F%BA%E6%9C%AC%E6%8C%87%E4%BB%A4.MD)
   - [LINUX CTF 101解答 ](https://github.com/MyFirstSecurity2020/SecurityFoscusOnline2023/blob/main/A2_Linux%E8%B3%87%E5%AE%89%E6%8A%80%E8%A1%93%E5%85%A5%E9%96%80/2_1_Linux101%E8%A7%A3%E7%AD%94.md)  [[Linux1_教學錄影]](https://youtu.be/zLeU0XJAtws)
@@ -63,20 +63,20 @@
   - 【延續學習建議】[學習更多Linux指令](./LearningLinux1.md)
   - 【延續學習建議】[LINUX 進階學習](./LearningLinux2.md)
   - 【延續學習建議】參加後續舉辦的【程式安全分析入門】課程
-- 隱寫術(Steganography) == >  隱寫術101
-  - 1_認識 隱寫術(Steganography)  [[線上教材]](./Linux/2.%E9%9A%B1%E5%AF%AB%E8%A1%93%E5%85%A5%E9%96%80/1_%E8%AA%8D%E8%AD%98%E9%9A%B1%E5%AF%AB%E8%A1%93%20Steganography.md) [[YOUTUBE教學影片]](https://youtu.be/EJk3l64WPsQ)
-  - 2_圖片隱寫術之1:基本入門技_使用linux 基本指令file|strings|grep{隱寫術101::STEG3} [解答](https://github.com/MyFirstSecurity2020/SecurityFoscusOnline2023/blob/main/A2_Linux%E8%B3%87%E5%AE%89%E6%8A%80%E8%A1%93%E5%85%A5%E9%96%80/2.%E9%9A%B1%E5%AF%AB%E8%A1%93%E5%85%A5%E9%96%80/2_%E5%9C%96%E7%89%87%E9%9A%B1%E5%AF%AB%E8%A1%93%E5%9F%BA%E6%9C%AC%E5%85%A5%E9%96%80%E6%8A%80.md) [[YOUTUBE教學影片]](https://youtu.be/farL-eOUXZs)
-  - 👍3_圖片隱寫術之2:圖片內嵌`含解答圖片`的解題 
+- 3.隱寫術(Steganography) == >  隱寫術101
+  - 3.1_認識 隱寫術(Steganography)  [[線上教材]](./Linux/2.%E9%9A%B1%E5%AF%AB%E8%A1%93%E5%85%A5%E9%96%80/1_%E8%AA%8D%E8%AD%98%E9%9A%B1%E5%AF%AB%E8%A1%93%20Steganography.md) [[YOUTUBE教學影片]](https://youtu.be/EJk3l64WPsQ)
+  - 3.2_圖片隱寫術之1:基本入門技_使用linux 基本指令file|strings|grep{隱寫術101::STEG3} [解答](https://github.com/MyFirstSecurity2020/SecurityFoscusOnline2023/blob/main/A2_Linux%E8%B3%87%E5%AE%89%E6%8A%80%E8%A1%93%E5%85%A5%E9%96%80/2.%E9%9A%B1%E5%AF%AB%E8%A1%93%E5%85%A5%E9%96%80/2_%E5%9C%96%E7%89%87%E9%9A%B1%E5%AF%AB%E8%A1%93%E5%9F%BA%E6%9C%AC%E5%85%A5%E9%96%80%E6%8A%80.md) [[YOUTUBE教學影片]](https://youtu.be/farL-eOUXZs)
+  - 👍3.3_圖片隱寫術之2:圖片內嵌`含解答圖片`的解題 
     - 題目:隱寫術101::STEG4  [題目檔案](https://raw.githubusercontent.com/MyFirstSecurity2020/backup/main/steg/steg101/carter.jpg) [解答](https://github.com/MyFirstSecurity2020/SecurityFoscusOnline2023/edit/main/A2_Linux%E8%B3%87%E5%AE%89%E6%8A%80%E8%A1%93%E5%85%A5%E9%96%80/2.%E9%9A%B1%E5%AF%AB%E8%A1%93%E5%85%A5%E9%96%80/3_%E5%9C%96%E7%89%87%E9%9A%B1%E5%AF%AB%E8%A1%93%E4%B9%8B2_%E5%9C%96%E7%89%87%E5%85%A7%E5%B5%8C%E8%A7%A3%E7%AD%94%E5%9C%96%E7%89%87%E7%9A%84%E8%A7%A3%E9%A1%8C.md) [[YOUTUBE教學影片]](https://youtu.be/GLpg4rTmiqg)
-  - 4_圖片隱寫術之3:圖片的metadata{隱寫術101::STEG5} [解答](https://github.com/MyFirstSecurity2020/SecurityFoscusOnline2023/blob/main/A2_Linux%E8%B3%87%E5%AE%89%E6%8A%80%E8%A1%93%E5%85%A5%E9%96%80/2.%E9%9A%B1%E5%AF%AB%E8%A1%93%E5%85%A5%E9%96%80/4_%E5%9C%96%E7%89%87%E9%9A%B1%E5%AF%AB%E8%A1%93%E4%B9%8B3_%E5%9C%96%E7%89%87%E7%9A%84metadata.md)
-- Linux 鑑識分析入門 == >  Network101
-  - 1.鑑識分析與Wireshark入門 [線上教材](./Linux/3_1_鑑識分析與Wireshark入門.md)
-  - 2.網路鑑識分析第一步:使用linux指令進行分析[線上教材](./Linux/3_2_網路鑑識分析第一步_使用linux基本指令進行分析.md) [[YOUTUBE教學影片]](https://youtu.be/IL0R7u7W9dk)
+  - 3.4_圖片隱寫術之3:圖片的metadata{隱寫術101::STEG5} [解答](https://github.com/MyFirstSecurity2020/SecurityFoscusOnline2023/blob/main/A2_Linux%E8%B3%87%E5%AE%89%E6%8A%80%E8%A1%93%E5%85%A5%E9%96%80/2.%E9%9A%B1%E5%AF%AB%E8%A1%93%E5%85%A5%E9%96%80/4_%E5%9C%96%E7%89%87%E9%9A%B1%E5%AF%AB%E8%A1%93%E4%B9%8B3_%E5%9C%96%E7%89%87%E7%9A%84metadata.md)
+- 4.Linux 鑑識分析入門 == >  Network101
+  - 4.1.鑑識分析與Wireshark入門 [線上教材](./Linux/3_1_鑑識分析與Wireshark入門.md)
+  - 4.2.網路鑑識分析第一步:使用linux指令進行分析[線上教材](./Linux/3_2_網路鑑識分析第一步_使用linux基本指令進行分析.md) [[YOUTUBE教學影片]](https://youtu.be/IL0R7u7W9dk)
     - linux指令: file | strings | grep
     - Network101::NET1
     - Network101::NET2
-  - 👍3.HTTP Basic Authentication(認證)封包分析{Network101::NET3} [線上教材](./Linux/3_3_使用wireshark分析HTTPBasicAuthentication.md) [[YOUTUBE教學影片]](https://youtu.be/IH3Q7jdDX5s)
-  - 4.HTTP封包分析之檢視出user使用的瀏覽器版本號{Network101::NET4} [線上教材](./Linux/3_4_使用wireshark檢視出user使用的瀏覽器版本號.md) [[YOUYUBE錄影]](https://youtu.be/GnufKfXOSG4)
+  - 👍4.3.HTTP Basic Authentication(認證)封包分析{Network101::NET3} [線上教材](./Linux/3_3_使用wireshark分析HTTPBasicAuthentication.md) [[YOUTUBE教學影片]](https://youtu.be/IH3Q7jdDX5s)
+  - 4.4.HTTP封包分析之檢視出user使用的瀏覽器版本號{Network101::NET4} [線上教材](./Linux/3_4_使用wireshark檢視出user使用的瀏覽器版本號.md) [[YOUYUBE錄影]](https://youtu.be/GnufKfXOSG4)
 
 ## 其他linux版本下載
 - Ubuntu 22.04 Server.ova Username: ksu Password: ksu202208

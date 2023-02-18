@@ -20,7 +20,8 @@
   - Kali linux與滲透測試 ~ 族繁不及備載 ~  請自行上網搜尋
 
 ### 準備考 Linux認證
-- Linux+ | LPIC Linux
+- CompTIA Linux+ | LPIC Linux
+  - [只有英文書(請詢問考上的大大~)](https://www.tenlong.com.tw/search?utf8=%E2%9C%93&keyword=Comptia+Linux%2B) 
 - Red Hat Linux
   - [RHCSA/RHCE8紅帽Linux認證學習教程 段超飛](https://www.tenlong.com.tw/products/9787301334157?list_name=srh) 
 

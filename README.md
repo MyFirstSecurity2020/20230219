@@ -1,6 +1,14 @@
 # 20230219 Linux資安技術入門
 - 本次課程採用實體資安教學模式以協助學生使用虛擬化技術(在Windows作業系統上安裝Virtualbox,然後匯入linux)學習linux
 - 完整的SecurityFoscusOnline2023課程 ~ 請參閱 [完整上課資訊20230211](https://github.com/MyFirstSecurity2020/20230211)
+- 實體教學環境
+  - 預先作業:本課程使用虛擬機匯入Kali Linux進行教學
+  - 步驟1:在你的電腦下載 [virtual box](https://www.virtualbox.org/wiki/Downloads) 並安裝完成 [Virtualbox安裝:YOUTUBE影片](https://youtu.be/FC0CX71aGnc)
+  - 步驟2:點選資料下載點, 下載這些龐大的系統
+    - Kali Linux [下載點](https://drive.google.com/file/d/1m620Z7KAOSUOLdFH92FYLE2NINb-vJsn/view?usp=sharing)
+    - Python會用到的Ubuntu Linux 18.04 LTS(已安裝好pwntools)  [下載點](https://drive.google.com/file/d/1aP-qCFP6jKsGYXtKy9ahwZleQSENEi7C/view?usp=sharing)
+  - 步驟3:匯入你要用的linux  [[YOUTUBE教學錄影]](https://youtu.be/GTpQR7fZcwE)
+- 學生預先作業:請學生預先申請你的 [github](https://github.com/)  ~ 請上網Google 一下申請辦法
 
 # 上課模式
 - 請務必先聽完如何使用本課程與相關規範
@@ -39,13 +47,6 @@
   - 【自行完成】{隱寫術101::STEG2_Secret in PDF}
 
 ## Linux資安技術入門 本課程使用Kali Linux進行
-- 預先作業:本課程使用虛擬機匯入Kali Linux進行教學
-  - 步驟1:在你的電腦下載 [virtual box](https://www.virtualbox.org/wiki/Downloads) 並安裝完成 [Virtualbox安裝:YOUTUBE影片](https://youtu.be/FC0CX71aGnc)
-  - 步驟2:點選資料下載點, 下載這些龐大的系統
-    - Kali Linux [下載點](https://drive.google.com/file/d/1m620Z7KAOSUOLdFH92FYLE2NINb-vJsn/view?usp=sharing)
-    - Python會用到的Ubuntu Linux 18.04 LTS(已安裝好pwntools)  [下載點](https://drive.google.com/file/d/1aP-qCFP6jKsGYXtKy9ahwZleQSENEi7C/view?usp=sharing)
-  - 步驟3:匯入你要用的linux  [[YOUTUBE教學錄影]](https://youtu.be/GTpQR7fZcwE)
-- 額外預先作業:申請你的 [github](https://github.com/) 
 - 學習LINUX
   - 使用Google Colab
   - 連線到LINUX CTF去學習

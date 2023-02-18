@@ -43,7 +43,7 @@
   - [Raspberry Pi 樹莓派：12道開胃菜打造 Linux 核心肌群 林有容](https://www.tenlong.com.tw/products/9789864349173?list_name=srh)
 - 在樹莓派Raspberry Pi 400 安裝Ubuntu 
   - [【開箱文】Raspberry Pi 400 介紹與 Ubuntu 系統安裝](https://www.circuspi.com/index.php/2021/02/09/raspberry-pi-400-ubuntu/)
-
+- [Top 10 Media Server Software for Music Streaming on Raspberry Pi](https://circuitdigest.com/article/top-media-server-software-for-music-streaming-on-raspberry-pi)
 ### 學習各種linux安全工具
 - 【推薦書籍】
   - [LINUX FIREWALLS ：善用 NFTABLES 等超強工具捍衛 LINUX 防火牆的安全性, 4/e (中文版)](https://www.tenlong.com.tw/products/9789864344239?list_name=srh)

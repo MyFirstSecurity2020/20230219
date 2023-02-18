@@ -14,6 +14,16 @@
 - rm（remove）: 刪除檔案或目錄
 - mv（move file）: 移動檔案與目錄，或修改檔案與目錄的名稱
 
+### 檔案與文件搜尋(Search for files and directories)
+- 👍find
+  - 範例: find `/` -name secret  == >從`根目錄(/)`開始找 名稱為secret的檔案
+  - [Unix/Linux 的 find 指令使用教學、技巧與範例整理](https://blog.gtwang.org/linux/unix-linux-find-command-examples/) 
+  - [在 Linux 下使用 find 指令查詢目錄與檔案的速查筆記](https://blog.miniasp.com/post/2010/08/27/Linux-find-command-tips-and-notice)
+- locate
+  - [Linux 使用 locate 尋找檔案教學與範例](https://officeguide.cc/linux-locate-command-tutorial-examples/)
+  - [How to Use the locate Command in Linux With Examples](https://phoenixnap.com/kb/locate-command-in-linux#:~:text=The%20locate%20command%20finds%20files,corresponding%20paths%20in%20the%20system.)
+  - [Locate Command in Linux](https://linuxize.com/post/locate-command-in-linux/)
+- which ==>  which [文件...] ==> 範例:which bash
 
 ### {程式|文書}編輯軟體
 - 👍gedit
@@ -22,7 +32,7 @@
   - [精通 vi 與 Vim, 8/e](https://www.tenlong.com.tw/products/9786263243545?list_name=srh)
 
 ### 檔案壓縮與打包
-- 👍tar 
+- 👍tar   [Windows 10也內建tar]
   - 副檔名是`.tar` (僅打包，無壓縮)
   - 副檔名是`.tar.gz` (打包+壓縮)
   - 解壓縮並解包最常見指令 ==>  tar -xzvf test.tar.gz
@@ -52,6 +62,8 @@
 - clear
 - less
 - more
+- wc(word count) ==> 用來計算檔案內容的字數、行數、位元組數等資訊
+  - [Linux 使用 wc 指令計算字數、行數教學與範例](https://blog.gtwang.org/linux/linux-wc-command-tutorial-examples/) 
 
 ### 網路基本指令
 - 👍wget
@@ -65,7 +77,8 @@
     - 不要解析 DNS ==> `-n`
     - Displays active TCP connections and includes the process ID (PID) for each connection. ==> `-o`
   - [使用 Netstat 指令檢測網路的技巧](https://blog.gtwang.org/linux/linux-netstat-command-examples/) 
-- 👍curl:強大的命令列瀏覽器
+- 👍curl:強大的命令列瀏覽器  [Windows 10也內建curl]
+  - [Linux Curl 超詳細教學(常用篇)](https://www.cjkuo.net/linux-curl-detail/) 
 - 👍nc:強大的網路連線  ==> 超強 的socat 指令
   - [Netcat（Linux nc 指令）網路管理者工具實用範例](https://blog.gtwang.org/linux/linux-utility-netcat-examples/) 
   - [Linunx 指令 nc 用法](https://myapollo.com.tw/zh-tw/linux-command-nc/)
@@ -75,6 +88,7 @@
 - 連線到遠端伺服器 telnet(不安全)  vs ssh(安全)
   - 範例 ==> ssh `-p 2200` lab@120.114.62.111 
   - [Linux 的 SSH 安全加密連線指令使用教學、設定檔配置範例](https://blog.gtwang.org/linux/ssh-command-tutorial-and-script-examples/) 
+- ifconfig ==> 用於顯示或設定網路設備。   ==> Windows 是用ipconfig
 - ping: 檢測主機。
   - 執行 ping 指令會使用 ICMP 傳輸協定，發出要求回應的資訊
   - 若遠端主機的網路功能沒有問題，就會回應該資訊，因而得知該主機運作正常。

@@ -12,12 +12,20 @@
   - [LAMP + LNMP 網站架構與運維實戰張春曉](https://www.tenlong.com.tw/products/9787302579892?list_name=srh)  
 - [建置你的Wiki網站](http://www.tsima.org.tw/wiki/dian-zi-qi-kan/semantic-mediawiki/mediawiki-wang-zhan-jia-she-xin-de)
   - 著名的維基百科就是以MediaWiki 為基礎架設的網站 
+- 建置你的 類似Twitter 社交網路伺服器(Social Networking) ==> Mastodon |  Pleroma
+- 建置你的 串流直播伺服器(streaming server) ==>
+- 建置你的 podcast伺服器
+- 建置你的 部落格(blog)伺服器  ==> wordpress joomla [content management system]
+- 建置你的 教學 網站伺服器 ==>moodle
 - 建置你的Samba文件服務伺服器(Samba server)
 - 建置你的檔案傳輸伺服器(FTP server):vsftp
 - 建置你的網路硬碟伺服器:Nextcloud
-- 建置你的email 伺服器(email server):
+- 建置你的VPN伺服器: openVPN
+- 建置你的安全連線伺服器: openssh 
+- 建置你的email 伺服器(email server):postfix server
 - 建置你的名稱解析服務伺服器(DNS server):bind
 - 建置你的DHCP伺服器(DHCP server):動態管理主機位址
+- 建置你的proxy伺服器(proxy server):Squid
 - 建置你的LDAP伺服器(LDAP server):
   - [Linux OpenLDAP 實戰指南](https://www.tenlong.com.tw/products/9789864761395?list_name=srh)
 
@@ -48,6 +56,24 @@
   - [臥龍小三 Linux Shell 程式設計與管理實務 [第三版]【暢銷回饋版】](https://www.tenlong.com.tw/products/9786263332539?list_name=srh)
   - [Linux 指令大全：工程師活用命令列技巧的常備工具書 (全新升級版) (The Linux Command Line : A Complete Introduction, 2/e)](https://www.tenlong.com.tw/products/9786263331075?list_name=srh)
   - [系統管理員懶人包｜Shell Script 自動化指令集 (Wicked Cool Shell Scripts)](https://www.tenlong.com.tw/products/9789864763672?list_name=srh)
+
+### 學習linux上的各種程式開發
+- C ==> 使用 gcc
+  - [C 语言教程](https://www.runoob.com/cprogramming/c-tutorial.html) 
+- c++  ==> 使用 g++
+  - [C++ 教程](https://www.runoob.com/cplusplus/cpp-tutorial.html) 
+- java
+  - [Java 教程](https://www.runoob.com/java/java-tutorial.html) 
+- go
+  - [安裝](https://go.dev/doc/install)
+  - [Go 语言教程](https://www.runoob.com/go/go-tutorial.html) 
+
+### 學習linux上的各種網站應用程式開發
+- 伺服器端網站應用程式
+  - PHP: Laravel 
+  - Python: Django vs Flask
+  - Node.js 
+  - ASP.NET Core
 
 ### 學習linux 雲端技術
 - 虛擬化技術

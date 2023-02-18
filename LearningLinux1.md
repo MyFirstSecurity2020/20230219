@@ -33,9 +33,10 @@
   - [[Linux] .tar .tar.gz 常用壓縮打包指令 (打包、壓縮、解壓縮)](https://richarlin.tw/blog/linux-tar/)
   - [Linux tar 命令](https://www.runoob.com/linux/linux-comm-tar.html)
   - [tar command in Linux with examples](https://www.geeksforgeeks.org/tar-command-linux-examples/)
-- gzip
-- zip(壓縮檔案) vs  unzip(解壓縮檔案)
-  - 副檔名是 `.zip` 
+- gzip(壓縮檔案) vs gunzip(解壓縮檔案) :  - 副檔名是 `.gz` 
+  - 指令格式: gzip `FileName(檔案名稱)` ==> 產生 FileName.gz
+  - 解壓縮檔案 == > gunzip FileName.gz 或是  gzip `-d` FileName.gz
+- zip(壓縮檔案) vs  unzip(解壓縮檔案) : 副檔名是 `.zip` 
 ### 檔案文件處理高階技術 text processing 
 - 👍grep: 查找內容包含指定的範本樣式的檔案
   - 如果發現某檔案的內容符合所指定的範本樣式，預設 grep 指令會把含有範本樣式的那一列顯示出來。

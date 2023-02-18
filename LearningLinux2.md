@@ -4,7 +4,14 @@
 ### 學習linux各種管理技術(Linux System Administration)
 - 使用者與群組管理
 - 系統管理與優化
-- 
+- 系統備份與還原
+- 監控與分析
+- 網路環境設定與管理(network management)
+- 磁碟與裝置管理(device management)
+- 日誌管理
+- 系統安全設定(配置)與維護
+- [CentOS 8 Linux 系統管理與一線運維實戰](https://www.tenlong.com.tw/products/9787111696421?list_name=srh)
+- [Mastering Ubuntu Server - Fourth Edition](https://www.packtpub.com/product/mastering-ubuntu-server-fourth-edition/9781803234243)
 
 ### 學習各種linux伺服器架設與管理 + 安全強化技術
 - 建置你的網站伺服器(web server)
@@ -69,11 +76,12 @@
   - [Go 语言教程](https://www.runoob.com/go/go-tutorial.html) 
 
 ### 學習linux上的各種網站應用程式開發
-- 伺服器端網站應用程式
+- 伺服器端(server-side)網站應用程式
   - PHP: Laravel 
   - Python: Django vs Flask
   - Node.js 
   - ASP.NET Core
+  - JSP | JAVA EE
 
 ### 學習linux 雲端技術
 - 虛擬化技術

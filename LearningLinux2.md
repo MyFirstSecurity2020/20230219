@@ -35,7 +35,7 @@
 - 虛擬化技術
   - 【推薦書籍】[突破困境！企業開源虛擬化管理平台：使用 Proxmox Virtual Environment 鄭郁霖 (Jason Cheng) 著](https://www.tenlong.com.tw/products/9789864349616?list_name=srh)
 - 容器化技術Docker
-  - 請持續關注 後續開設的課程 【linux 雲端技術與資安應用】
+  - 👍請持續關注 後續開設的課程 【linux 雲端技術與資安應用】
 - Kubernetes(K8s)
   - 可用來自動化部屬、擴展及管理多個容器（Container）的系統
   - 適用於當容器數量增加，需要穩定容器環境，以及管理資源或權限分配的狀況

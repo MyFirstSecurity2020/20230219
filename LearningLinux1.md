@@ -160,14 +160,15 @@
 
 ### 顯示登錄使用者
 - w：詳細查詢已登錄當前電腦的使用者
-14.2 who：顯示已登錄當前電腦使用者的簡單資訊
-14.3 whoami：顯示與當前的有效使用者ID相關聯的用戶名
-14.4 logname：顯示當前使用者的登錄名稱
-14.5 users：用單獨的一行顯示出當前登錄的使用者
-14.6 last：顯示近期使用者登錄情況
-14.7 lastb：列出登錄系統失敗的使用者資訊
-14.8 lastlog：查看用戶上次登錄的時間
-14.9 rwho：顯示在本地網路的所有主機上登錄的使用者資訊
+- who：顯示已登錄當前電腦使用者的簡單資訊
+- whoami：顯示與當前的有效使用者ID相關聯的用戶名
+- logname：顯示當前使用者的登錄名稱
+- users：用單獨的一行顯示出當前登錄的使用者
+- last：顯示近期使用者登錄情況
+- lastb：列出登錄系統失敗的使用者資訊
+- lastlog：查看用戶上次登錄的時間
+- rwho：顯示在本地網路的所有主機上登錄的使用者資訊
+
 ### 使用者(user)管理 |群組(group) 權限變更管理
 - 👍👍chmod(change mode) ==>  變更使用者對文件檔案的許可權的命令
   - [Linux chmod命令](https://www.runoob.com/linux/linux-comm-chmod.html) 
@@ -175,3 +176,9 @@
 - chgrp(change group)==> 用於變更檔案或目錄的所屬群組。
 - 👍👍su：切換到其他使用者帳戶進行登錄
 - 👍👍sudo：以另外一個使用者執行命令
+- umask：顯示和設置檔及目錄創建預設許可權遮罩
+- getfacl：顯示檔案或目錄的`access control list (ACL) 存取控制清單`
+- setfacl：設置檔案或目錄的`access control list (ACL) 存取控制清單`
+- chacl：更改檔案或目錄的`access control list (ACL) 存取控制清單`
+- ls`attr`：查看檔案和目錄的`屬性(attribute)`
+- ch`attr`：更改檔案和目錄的`屬性(attribute)`

@@ -53,13 +53,26 @@
   - [Linux 使用 wget 指令自動下載網頁檔案教學與範例](https://blog.gtwang.org/linux/linux-wget-command-download-web-pages-and-files-tutorial-examples/) 
   - [Wget command in Linux/Unix](https://www.geeksforgeeks.org/wget-command-in-linux-unix/)
   - [Wget Command in Linux with Examples](https://linuxize.com/post/wget-command-examples/)
-- 👍netstat
-- 👍curl
-- 👍nc
+- 👍netstat ==> 列出網路連線的各種資訊
+  - 範例: netstat -ano
+    - 列出所有連接埠（Port） ==> `-a`
+    - 不要解析 DNS ==> `-n`
+    - Displays active TCP connections and includes the process ID (PID) for each connection. ==> `-o`
+  - [使用 Netstat 指令檢測網路的技巧](https://blog.gtwang.org/linux/linux-netstat-command-examples/) 
+- 👍curl:強大的命令列瀏覽器
+- 👍nc:強大的網路連線  ==> 超強 的socat 指令
   - [Netcat（Linux nc 指令）網路管理者工具實用範例](https://blog.gtwang.org/linux/linux-utility-netcat-examples/) 
   - [Linunx 指令 nc 用法](https://myapollo.com.tw/zh-tw/linux-command-nc/)
   - [Linux nc command](https://www.computerhope.com/unix/nc.htm)
-- 
+  - [The socat Command in Linux](https://www.baeldung.com/linux/socat-command#:~:text=Socat%20is%20a%20flexible%2C%20multi,%2C%20TCP%2C%20or%20standard%20input.)
+  - [Getting started with socat, a multipurpose relay tool for Linux](https://www.redhat.com/sysadmin/getting-started-socat)
+- 連線到遠端伺服器 telnet(不安全)  vs ssh(安全)
+  - 範例 ==> ssh `-p 2200` lab@120.114.62.111 
+  - [Linux 的 SSH 安全加密連線指令使用教學、設定檔配置範例](https://blog.gtwang.org/linux/ssh-command-tutorial-and-script-examples/) 
+- ping: 檢測主機。
+  - 執行 ping 指令會使用 ICMP 傳輸協定，發出要求回應的資訊
+  - 若遠端主機的網路功能沒有問題，就會回應該資訊，因而得知該主機運作正常。
+  - ping -c 4 www.google.com   [手動終止==> Ctrl+C]
   - [Linux ping 命令](https://www.runoob.com/linux/linux-comm-ping.html)
 - traceroute   [WINDOWS作業系統也有tracert] tracert www.google.com
   - 從你的電腦到google 經過多少router(路由器) ==>traceroute www.google.com [有很多節點不會顯示 是因為關掉ICMP] 

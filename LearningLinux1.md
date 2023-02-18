@@ -56,6 +56,8 @@
   - [Linux awk 命令](https://www.runoob.com/linux/linux-comm-awk.html) 
 - sed
   - [Sed Command in Linux/Unix with examples](https://www.geeksforgeeks.org/sed-command-in-linux-unix-with-examples/?ref=leftbar-rightbar) 
+  - sort：對檔案中的資料進行排序
+  - uniq：將重複行從輸出檔中刪除
 
 
 ### 其他有用指令
@@ -69,7 +71,14 @@
 - tail ==> hexdump carter.jpg | tail
 - wc(word count) ==> 用來計算檔案內容的字數、行數、位元組數等資訊
   - [Linux 使用 wc 指令計算字數、行數教學與範例](https://blog.gtwang.org/linux/linux-wc-command-tutorial-examples/) 
-
+- nl
+  - (1)用來計算檔案中行號。
+  - (2)nl 可以將輸出的檔內容自動的加上行號
+  - (3)nl 可以將行號做比較多的顯示設計，包括位元數與是否自動補齊 0 等等的功能。 
+  - 語法格式: nl [OPTION]... [FILE]...
+  - [每天一个linux命令(11)：nl命令](https://www.cnblogs.com/peida/archive/2012/11/01/2749048.html)
+  - [Linux nl Command Tutorial for Beginners (7 Examples)](https://www.howtoforge.com/linux-nl-command/) 
+- history：查看命令歷史記錄
 ### 網路基本指令
 - 👍wget
   - `語法格式Syntax`: wget [option參數選項] [URL網址]
@@ -137,5 +146,32 @@
     - 在powershell環境 ~~ 執行 winget install vscode ~~ 就會安裝 Visual Studio Code 微軟開源發布的一款程式碼編輯器
   - Chocolatey .....
 
-### 使用者(user)管理 |群組(group)管理
+### 使用者(user)管理 |群組(group) 變更管理
+- 建立使用者帳號　==>　useradd | adduser|lnewusers
+- 修改使用者帳號　==>　usermod
+- 刪除使用者帳號　==>　userdel
+- 建立群組帳號　==>　groupadd
+- 修改群組帳號　==>groupmod
+- 刪除群組帳號　==>　groupdel
+- 顯示使用者的UID及該用戶所屬組群的GID　==>　id　
+- 設定或修改使用者密碼　==>　passwd
+- 設定組群密碼或在組群中添加、刪除用戶　==>　gpasswd
+- 顯示指定使用者帳戶的組群成員身份　==>　groups
 
+### 顯示登錄使用者
+- w：詳細查詢已登錄當前電腦的使用者
+14.2 who：顯示已登錄當前電腦使用者的簡單資訊
+14.3 whoami：顯示與當前的有效使用者ID相關聯的用戶名
+14.4 logname：顯示當前使用者的登錄名稱
+14.5 users：用單獨的一行顯示出當前登錄的使用者
+14.6 last：顯示近期使用者登錄情況
+14.7 lastb：列出登錄系統失敗的使用者資訊
+14.8 lastlog：查看用戶上次登錄的時間
+14.9 rwho：顯示在本地網路的所有主機上登錄的使用者資訊
+### 使用者(user)管理 |群組(group) 權限變更管理
+- 👍👍chmod(change mode) ==>  變更使用者對文件檔案的許可權的命令
+  - [Linux chmod命令](https://www.runoob.com/linux/linux-comm-chmod.html) 
+- chown(change owner) ==> 設定文件`所有者(owner)`和文件關聯組的命令
+- chgrp(change group)==> 用於變更檔案或目錄的所屬群組。
+- 👍👍su：切換到其他使用者帳戶進行登錄
+- 👍👍sudo：以另外一個使用者執行命令

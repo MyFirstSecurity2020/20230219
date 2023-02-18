@@ -25,7 +25,7 @@
 - Red Hat Linux
   - [RHCSA/RHCE8紅帽Linux認證學習教程 段超飛](https://www.tenlong.com.tw/products/9787301334157?list_name=srh) 
 
-### 學習linux shell programming
+### 👍學習linux shell programming
 - 【推薦書籍】
   - [臥龍小三 Linux Shell 程式設計與管理實務 [第三版]【暢銷回饋版】](https://www.tenlong.com.tw/products/9786263332539?list_name=srh)
   - [Linux 指令大全：工程師活用命令列技巧的常備工具書 (全新升級版) (The Linux Command Line : A Complete Introduction, 2/e)](https://www.tenlong.com.tw/products/9786263331075?list_name=srh)
@@ -33,7 +33,7 @@
 
 ### 學習linux 雲端技術
 - 虛擬化技術
-  - 【推薦書籍】[突破困境！企業開源虛擬化管理平台：使用 Proxmox Virtual Environment (iThome鐵人賽系列書) 鄭郁霖 (Jason Cheng) 著](https://www.tenlong.com.tw/products/9789864349616?list_name=srh)
+  - 【推薦書籍】[突破困境！企業開源虛擬化管理平台：使用 Proxmox Virtual Environment 鄭郁霖 (Jason Cheng) 著](https://www.tenlong.com.tw/products/9789864349616?list_name=srh)
 - 容器化技術Docker
   - 請持續關注 後續開設的課程 【linux 雲端技術與資安應用】
 - Kubernetes(K8s)

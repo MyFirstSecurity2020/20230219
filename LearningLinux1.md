@@ -4,7 +4,7 @@
 - 參考資料
   - [Linux 命令大全](https://www.runoob.com/linux/linux-command-manual.html)
 
-###  檔案與目錄的基本指令
+###  👍檔案與目錄的基本指令 [Linux 文件与目录管理](https://www.runoob.com/linux/linux-file-content-manage.html)
 - ls（list files）: 列出目錄及檔案名
 - cd（change directory）：切換目錄
 - pwd（print work directory）：顯示目前的目錄
@@ -38,6 +38,9 @@
 
 ### 網路基本指令
 - 👍wget
+  - `語法格式Syntax`: wget [option參數選項] [URL網址]
+  - [Linux 使用 wget 指令自動下載網頁檔案教學與範例](https://blog.gtwang.org/linux/linux-wget-command-download-web-pages-and-files-tutorial-examples/) 
+  - [Wget Command in Linux with Examples](https://linuxize.com/post/wget-command-examples/)
 - 👍netstat
 - 👍curl
 
@@ -51,7 +54,9 @@
   - ps -aux 顯示所有包含其他使用者的行程
   - [Linux ps 命令](https://www.runoob.com/linux/linux-comm-ps.html)
   - [Linux ps command - 20 Real Life Examples](https://www.digitalocean.com/community/tutorials/linux-ps-command)
-
+- procinfo(process information):顯示系統狀態
+  - 從/proc目錄裡讀取相關資料，將資料妥善整理過後輸出到標準輸出設備。
+  - [Linux procinfo命令](https://www.runoob.com/linux/linux-comm-procinfo.html) 
 
 ### 軟體安裝與管理(software package management )
 - 不同的linux發行版本有不同的軟體安裝與管理指令
@@ -60,7 +65,13 @@
     - 指令格式 ==>  (sudo) apt-get [命令] [選項] [套件名稱1, 套件名稱2, …]
     - [apt-get 指令一覽](https://b9532026.wordpress.com/2010/03/30/apt-get-%E6%8C%87%E4%BB%A4%E4%B8%80%E8%A6%BD-2/)
     - [[Linux] apt 和 apt-get 之間的差別](https://clay-atlas.com/blog/2021/12/03/linux-apt-get-difference/)
+    - [（Advanced Packaging Tool）]()
   - RPM Package Manager (RPM)
+  - Yum( Yellow dog Updater, Modified)是一個在 Fedora 和 RedHat 以及 SUSE 中的 Shell 前端套裝軟體管理器。
+    - 基於 RPM 套件管理，能夠從指定的伺服器自動下載 RPM 包並且安裝
+    - 可以自動處理依賴性關係，並且一次安裝所有依賴的套裝軟體，無須繁瑣地一次次下載、安裝。
+    - yum 提供了查找、安裝、刪除某一個、一組甚至全部套裝軟體的命令，而且命令簡潔而又好記。
+    - [Linux yum 命令](https://www.runoob.com/linux/linux-yum.html)
 - Windows作業系統也有不同的軟體安裝與管理指令
   - winget:Windows 封裝管理員(windows10與11內建指令, since 2020) [WIKI說明](https://en.wikipedia.org/wiki/Windows_Package_Manager)
     - 在powershell環境 ~~ 執行 winget install vscode ~~ 就會安裝 Visual Studio Code 微軟開源發布的一款程式碼編輯器

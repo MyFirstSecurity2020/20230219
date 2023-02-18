@@ -8,7 +8,8 @@
 
 ### 學習各種linux伺服器架設與管理 + 安全強化技術
 - 建置你的網站伺服器(web server)
-- 
+- 建置你的名稱解析服務伺服器(DNS server):bind
+- 建置你的DHCP伺服器(DHCP server):動態管理主機位址
 ### 學習各種linux安全工具
 - 【推薦書籍】
   - [LINUX FIREWALLS ：善用 NFTABLES 等超強工具捍衛 LINUX 防火牆的安全性, 4/e (中文版)](https://www.tenlong.com.tw/products/9789864344239?list_name=srh)

@@ -18,7 +18,7 @@
 - 建置你的LDAP伺服器(LDAP server):
   - [Linux OpenLDAP 實戰指南](https://www.tenlong.com.tw/products/9789864761395?list_name=srh)
 
-### 使用樹莓派 學LInux
+### 使用樹莓派 學Linux
 - 在樹莓派Raspberry Pi 4B 安裝Ubuntu 
   - [Ubuntu Desktop 22.04.1 LTS下載](https://ubuntu.com/download/raspberry-pi)
   - [安裝:How to install Ubuntu Desktop on Raspberry Pi 4](https://ubuntu.com/tutorials/how-to-install-ubuntu-desktop-on-raspberry-pi-4#1-overview)

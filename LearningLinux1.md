@@ -21,8 +21,6 @@
 - vi/vim(高手都愛使用|有一點學習門檻)
   - [精通 vi 與 Vim, 8/e](https://www.tenlong.com.tw/products/9786263243545?list_name=srh)
 
-### 檔案與目錄管理指令
-- 
 ### 檔案壓縮與打包
 - 👍tar 
   - 副檔名是`.tar` (僅打包，無壓縮)
@@ -37,6 +35,7 @@
   - 指令格式: gzip `FileName(檔案名稱)` ==> 產生 FileName.gz
   - 解壓縮檔案 == > gunzip FileName.gz 或是  gzip `-d` FileName.gz
 - zip(壓縮檔案) vs  unzip(解壓縮檔案) : 副檔名是 `.zip` 
+
 ### 檔案文件處理高階技術 text processing 
 - 👍grep: 查找內容包含指定的範本樣式的檔案
   - 如果發現某檔案的內容符合所指定的範本樣式，預設 grep 指令會把含有範本樣式的那一列顯示出來。

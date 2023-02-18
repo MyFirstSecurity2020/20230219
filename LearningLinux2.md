@@ -1,5 +1,5 @@
 # Learning Linux 2
-- Linux有許多咚咚可學 ~~ 底下提供一些供大家後續學習
+- Linux有許多咚咚可學 ~~ 底下提供一些建議供大家後續學習
 
 ### 學習linux各種管理技術
 - 使用者與群組管理
@@ -10,6 +10,7 @@
 - 建置你的網站伺服器(web server)
 - 建置你的名稱解析服務伺服器(DNS server):bind
 - 建置你的DHCP伺服器(DHCP server):動態管理主機位址
+
 ### 學習各種linux安全工具
 - 【推薦書籍】
   - [LINUX FIREWALLS ：善用 NFTABLES 等超強工具捍衛 LINUX 防火牆的安全性, 4/e (中文版)](https://www.tenlong.com.tw/products/9789864344239?list_name=srh)

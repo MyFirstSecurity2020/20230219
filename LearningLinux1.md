@@ -1,6 +1,10 @@
 # 學習更多Linux指令
 - linux有許多指令,且不同的linux發行版本有不同的套件軟體
-
+### {程式|文書}編輯軟體
+- gedit
+- nano
+- vi/vim(高手都愛使用|有一點學習門檻)
+  - [精通 vi 與 Vim, 8/e](https://www.tenlong.com.tw/products/9786263243545?list_name=srh)
 ### 軟體安裝與管理(software package management )
 - 不同的linux發行版本有不同的軟體安裝與管理指令
 - 常見的有

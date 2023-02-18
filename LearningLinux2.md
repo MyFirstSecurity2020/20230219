@@ -10,6 +10,9 @@
 - 建置你的網站伺服器(web server)
   - LAMP（Linux+Apache Web+MySQL+PHP）LNMP（Linux+Nginx Web+MySQL+PHP）
   - [LAMP + LNMP 網站架構與運維實戰張春曉](https://www.tenlong.com.tw/products/9787302579892?list_name=srh)  
+- 建置你的Samba文件服務伺服器(Samba server)
+- 建置你的檔案傳輸伺服器(FTP server):
+- 建置你的email 伺服器(email server):
 - 建置你的名稱解析服務伺服器(DNS server):bind
 - 建置你的DHCP伺服器(DHCP server):動態管理主機位址
 - 建置你的LDAP伺服器(LDAP server):

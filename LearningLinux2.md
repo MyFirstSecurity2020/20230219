@@ -10,8 +10,11 @@
 - 建置你的網站伺服器(web server)
   - LAMP（Linux+Apache Web+MySQL+PHP）LNMP（Linux+Nginx Web+MySQL+PHP）
   - [LAMP + LNMP 網站架構與運維實戰張春曉](https://www.tenlong.com.tw/products/9787302579892?list_name=srh)  
+- [建置你的Wiki網站](http://www.tsima.org.tw/wiki/dian-zi-qi-kan/semantic-mediawiki/mediawiki-wang-zhan-jia-she-xin-de)
+  - 著名的維基百科就是以MediaWiki 為基礎架設的網站 
 - 建置你的Samba文件服務伺服器(Samba server)
-- 建置你的檔案傳輸伺服器(FTP server):
+- 建置你的檔案傳輸伺服器(FTP server):vsftp
+- 建置你的網路硬碟伺服器:Nextcloud
 - 建置你的email 伺服器(email server):
 - 建置你的名稱解析服務伺服器(DNS server):bind
 - 建置你的DHCP伺服器(DHCP server):動態管理主機位址

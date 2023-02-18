@@ -5,8 +5,10 @@
   - 預先作業:本課程使用虛擬機匯入Kali Linux進行教學
   - 步驟1:在你的電腦下載 [virtual box](https://www.virtualbox.org/wiki/Downloads) 並安裝完成 [Virtualbox安裝:YOUTUBE影片](https://youtu.be/FC0CX71aGnc)
   - 步驟2:點選資料下載點, 下載這些龐大的系統
-    - Kali Linux [下載點](https://drive.google.com/file/d/1m620Z7KAOSUOLdFH92FYLE2NINb-vJsn/view?usp=sharing)
+    - 本課程會用到的Kali Linux(比較舊的版本2019) [下載點](https://drive.google.com/file/d/1m620Z7KAOSUOLdFH92FYLE2NINb-vJsn/view?usp=sharing)
     - Python會用到的Ubuntu Linux 18.04 LTS(已安裝好pwntools)  [下載點](https://drive.google.com/file/d/1aP-qCFP6jKsGYXtKy9ahwZleQSENEi7C/view?usp=sharing)
+    - [其他linux版本下載](https://ksunextcloud.duckdns.org/index.php/s/mXWBcNaYMrcoL9Y) ksu/ksu202208
+      - Ubuntu 22.04 Server.ova  |  Ubuntu 22.04 Desktop.ova  | CentOS 7 Desktop.ova  | Kali Linux.ova(2022.4)
   - 步驟3:匯入你要用的linux  [[YOUTUBE教學錄影]](https://youtu.be/GTpQR7fZcwE)
 - 學生預先作業:請學生預先申請你的 [github](https://github.com/)  ~ 請上網Google 一下申請辦法
 
@@ -80,8 +82,4 @@
   - 👍4.3.HTTP Basic Authentication(認證)封包分析{Network101::NET3} [線上教材](./Linux/3_3_使用wireshark分析HTTPBasicAuthentication.md) [[YOUTUBE教學影片]](https://youtu.be/IH3Q7jdDX5s)
   - 4.4.HTTP封包分析之檢視出user使用的瀏覽器版本號{Network101::NET4} [線上教材](./Linux/3_4_使用wireshark檢視出user使用的瀏覽器版本號.md) [[YOUYUBE錄影]](https://youtu.be/GnufKfXOSG4)
 
-## [其他linux版本下載](https://ksunextcloud.duckdns.org/index.php/s/mXWBcNaYMrcoL9Y)
-- Ubuntu 22.04 Server.ova Username: ksu Password: ksu202208
-- Ubuntu 22.04 Desktop.ova Username: ksu Password: ksu202208
-- CentOS 7 Desktop.ova Username: ksu Password: ksu202208
-- Kali Linux.ova Username: ksu Password: ksu202208
+

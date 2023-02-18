@@ -140,7 +140,7 @@
 ### 性能監控
 - sar：收集、報告或保存系統活動資訊
 - io`stat`：報告CPU統計資料和設備、分區輸入/輸出資訊
-- mp`stat`：報告CPU相關的統計資料
+- mp`stat`：報告CPU相關的統計資料  多處理器統計
 - vm`stat`：報告虛擬記憶體(vm: virtual memory)統計
 - io`top`：進行I/O監控
 - tload：載入顯示系統平均負載

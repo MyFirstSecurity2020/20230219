@@ -59,9 +59,13 @@
 
 
 ### 其他有用指令
+- 👍👍file ==> 檢視檔案格式 file carter.jpg
+- 👍👍strings ==> 檢視檔案  
 - clear
-- less
-- more
+- less ==> hexdump carter.jpg | less
+- more ==> hexdump carter.jpg | more
+- head ==> hexdump carter.jpg | head
+- tail ==> hexdump carter.jpg | tail
 - wc(word count) ==> 用來計算檔案內容的字數、行數、位元組數等資訊
   - [Linux 使用 wc 指令計算字數、行數教學與範例](https://blog.gtwang.org/linux/linux-wc-command-tutorial-examples/) 
 

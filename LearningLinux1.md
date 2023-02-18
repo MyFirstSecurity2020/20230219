@@ -24,7 +24,18 @@
 ### 檔案與目錄管理指令
 - 
 ### 檔案壓縮與打包
-
+- 👍tar 
+  - 副檔名是`.tar` (僅打包，無壓縮)
+  - 副檔名是`.tar.gz` (打包+壓縮)
+  - 解壓縮並解包最常見指令 ==>  tar -xzvf test.tar.gz
+  - -z或--gzip或--ungzip ==> 通過gzip指令處理備份檔案
+  - -x或--extract或--get ==> 從備份檔案中還原檔案
+  - [[Linux] .tar .tar.gz 常用壓縮打包指令 (打包、壓縮、解壓縮)](https://richarlin.tw/blog/linux-tar/)
+  - [Linux tar 命令](https://www.runoob.com/linux/linux-comm-tar.html)
+  - [tar command in Linux with examples](https://www.geeksforgeeks.org/tar-command-linux-examples/)
+- gzip
+- zip(壓縮檔案) vs  unzip(解壓縮檔案)
+  - 副檔名是 `.zip` 
 ### 檔案文件處理高階技術 text processing 
 - 👍grep: 查找內容包含指定的範本樣式的檔案
   - 如果發現某檔案的內容符合所指定的範本樣式，預設 grep 指令會把含有範本樣式的那一列顯示出來。
@@ -40,6 +51,7 @@
 - 👍wget
   - `語法格式Syntax`: wget [option參數選項] [URL網址]
   - [Linux 使用 wget 指令自動下載網頁檔案教學與範例](https://blog.gtwang.org/linux/linux-wget-command-download-web-pages-and-files-tutorial-examples/) 
+  - [Wget command in Linux/Unix](https://www.geeksforgeeks.org/wget-command-in-linux-unix/)
   - [Wget Command in Linux with Examples](https://linuxize.com/post/wget-command-examples/)
 - 👍netstat
 - 👍curl
@@ -57,17 +69,18 @@
 - procinfo(process information):顯示系統狀態
   - 從/proc目錄裡讀取相關資料，將資料妥善整理過後輸出到標準輸出設備。
   - [Linux procinfo命令](https://www.runoob.com/linux/linux-comm-procinfo.html) 
+- kill :刪除執行中的程式(行程)或工作。
+  - [Linux kill命令](https://www.runoob.com/linux/linux-comm-kill.html) 
 
 ### 軟體安裝與管理(software package management )
 - 不同的linux發行版本有不同的軟體安裝與管理指令
 - 常見的有
-  - Debian/Ubuntu 系Linux 發行版: apt-get
+  - Debian/Ubuntu 系Linux 發行版: `apt(Advanced Packaging Tool)` | apt-get
     - 指令格式 ==>  (sudo) apt-get [命令] [選項] [套件名稱1, 套件名稱2, …]
     - [apt-get 指令一覽](https://b9532026.wordpress.com/2010/03/30/apt-get-%E6%8C%87%E4%BB%A4%E4%B8%80%E8%A6%BD-2/)
     - [[Linux] apt 和 apt-get 之間的差別](https://clay-atlas.com/blog/2021/12/03/linux-apt-get-difference/)
-    - [（Advanced Packaging Tool）]()
-  - RPM Package Manager (RPM)
-  - Yum( Yellow dog Updater, Modified)是一個在 Fedora 和 RedHat 以及 SUSE 中的 Shell 前端套裝軟體管理器。
+    - [Linux apt 命令](https://www.runoob.com/linux/linux-comm-apt.html)
+  - RedHat: Yum( Yellow dog Updater, Modified) | RPM Package Manager (RPM)
     - 基於 RPM 套件管理，能夠從指定的伺服器自動下載 RPM 包並且安裝
     - 可以自動處理依賴性關係，並且一次安裝所有依賴的套裝軟體，無須繁瑣地一次次下載、安裝。
     - yum 提供了查找、安裝、刪除某一個、一組甚至全部套裝軟體的命令，而且命令簡潔而又好記。

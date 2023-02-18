@@ -47,12 +47,13 @@
   - 【自行完成】{隱寫術101::STEG2_Secret in PDF}
 
 ## Linux資安技術入門 本課程使用Kali Linux進行
-- 學習LINUX
-  - 使用Google Colab
-  - 連線到LINUX CTF去學習
-  - 使用線上工具 [Online Linux Terminal](https://www.tutorialspoint.com/linux_terminal_online.php)
-  - 使用虛擬機匯入LINUX學習 
+- 
 - 1.快速認識Linux作業系統 [線上教材](./Linux/1.基礎linux入門.MD) [[YOUTUBE教學錄影]](https://youtu.be/0T4o81Vghio)
+  - 幾種學習LINUX的方式:
+    - 連線到LINUX CTF去學習[本次課程會用到]
+    - 使用虛擬機匯入LINUX學習[本次課程會用到]
+    - 使用線上工具 [Online Linux Terminal](https://www.tutorialspoint.com/linux_terminal_online.php)
+    - 使用Google Colab
 - 2.學習LINUX基本指令(commands) == >  Linux 101 + Linux 102
   - [如何透過Windows連線到CTF平台解題](https://github.com/MyFirstSecurity2020/SecurityFoscusOnline2023/blob/main/A2_Linux%E8%B3%87%E5%AE%89%E6%8A%80%E8%A1%93%E5%85%A5%E9%96%80/%E5%A6%82%E4%BD%95%E9%80%8F%E9%81%8EWindows%E9%80%A3%E7%B7%9A%E5%88%B0CTF%E5%B9%B3%E5%8F%B0%E8%A7%A3%E9%A1%8C.md) [[YOUTUBE教學錄影]](https://youtu.be/cULwZeGliuA)
   - Linux指令入門[線上教材](https://github.com/MyFirstSecurity2020/20230211/blob/main/Linux/2_0_.Linux%E5%9F%BA%E6%9C%AC%E6%8C%87%E4%BB%A4.MD)

@@ -47,13 +47,19 @@
 - sed
   - [Sed Command in Linux/Unix with examples](https://www.geeksforgeeks.org/sed-command-in-linux-unix-with-examples/?ref=leftbar-rightbar) 
 
+
+### 其他有用指令
+- clear
+- less
+- more
+
 ### 網路基本指令
 - 👍wget
   - `語法格式Syntax`: wget [option參數選項] [URL網址]
   - [Linux 使用 wget 指令自動下載網頁檔案教學與範例](https://blog.gtwang.org/linux/linux-wget-command-download-web-pages-and-files-tutorial-examples/) 
   - [Wget command in Linux/Unix](https://www.geeksforgeeks.org/wget-command-in-linux-unix/)
   - [Wget Command in Linux with Examples](https://linuxize.com/post/wget-command-examples/)
-- 👍netstat ==> 列出網路連線的各種資訊
+- 👍netstat ==> 列出網路連線的各種資訊  [windows 也有netstat](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/netstat)
   - 範例: netstat -ano
     - 列出所有連接埠（Port） ==> `-a`
     - 不要解析 DNS ==> `-n`

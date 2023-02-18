@@ -47,7 +47,6 @@
   - 【自行完成】{隱寫術101::STEG2_Secret in PDF}
 
 ## Linux資安技術入門 本課程使用Kali Linux進行
-- 
 - 1.快速認識Linux作業系統 [線上教材](./Linux/1.基礎linux入門.MD) [[YOUTUBE教學錄影]](https://youtu.be/0T4o81Vghio)
   - 幾種學習LINUX的方式:
     - 連線到LINUX CTF去學習[本次課程會用到]

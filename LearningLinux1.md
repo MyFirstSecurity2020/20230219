@@ -55,6 +55,15 @@
   - [Wget Command in Linux with Examples](https://linuxize.com/post/wget-command-examples/)
 - 👍netstat
 - 👍curl
+- 👍nc
+  - [Netcat（Linux nc 指令）網路管理者工具實用範例](https://blog.gtwang.org/linux/linux-utility-netcat-examples/) 
+  - [Linunx 指令 nc 用法](https://myapollo.com.tw/zh-tw/linux-command-nc/)
+  - [Linux nc command](https://www.computerhope.com/unix/nc.htm)
+- 
+  - [Linux ping 命令](https://www.runoob.com/linux/linux-comm-ping.html)
+- traceroute   [WINDOWS作業系統也有tracert] tracert www.google.com
+  - 從你的電腦到google 經過多少router(路由器) ==>traceroute www.google.com [有很多節點不會顯示 是因為關掉ICMP] 
+  - [Linux traceroute命令](https://www.runoob.com/linux/linux-comm-traceroute.html)
 
 ### 行程管理(porcess management)指令
 - 你寫的`程式(program)`執行時就成為`行程(porcess)`
@@ -89,3 +98,6 @@
   - winget:Windows 封裝管理員(windows10與11內建指令, since 2020) [WIKI說明](https://en.wikipedia.org/wiki/Windows_Package_Manager)
     - 在powershell環境 ~~ 執行 winget install vscode ~~ 就會安裝 Visual Studio Code 微軟開源發布的一款程式碼編輯器
   - Chocolatey .....
+
+### 使用者(user)管理 |群組(group)管理
+

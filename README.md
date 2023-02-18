@@ -1,6 +1,7 @@
 # 20230219 Linux資安技術入門
-- 本次課程採用實體資安教學模式以協助學生使用虛擬化技術學習linux
+- 本次課程採用實體資安教學模式以協助學生使用虛擬化技術(在Windows作業系統上安裝Virtualbox,然後匯入linux)學習linux
 - 完整的SecurityFoscusOnline2023課程 ~ 請參閱 [完整上課資訊20230211](https://github.com/MyFirstSecurity2020/20230211)
+
 # 上課模式
 - 請務必先聽完如何使用本課程與相關規範
 - SecurityFoscusOnline2023課程採底下種模式進行:(1)預錄模式 (2)Google Meet線上直播模式 (3)實體資安教學模式

@@ -10,6 +10,16 @@
 - 建置你的網站伺服器(web server)
 - 建置你的名稱解析服務伺服器(DNS server):bind
 - 建置你的DHCP伺服器(DHCP server):動態管理主機位址
+- 建置你的LDAP伺服器(LDAP server):
+  - [Linux OpenLDAP 實戰指南](https://www.tenlong.com.tw/products/9789864761395?list_name=srh)
+
+### 使用樹莓派 學LInux
+- 在樹莓派Raspberry Pi 4B 安裝Ubuntu 
+  - [Ubuntu Desktop 22.04.1 LTS下載](https://ubuntu.com/download/raspberry-pi)
+  - [安裝:How to install Ubuntu Desktop on Raspberry Pi 4](https://ubuntu.com/tutorials/how-to-install-ubuntu-desktop-on-raspberry-pi-4#1-overview)
+  - [Raspberry Pi 樹莓派：12道開胃菜打造 Linux 核心肌群 林有容](https://www.tenlong.com.tw/products/9789864349173?list_name=srh)
+- 在樹莓派Raspberry Pi 400 安裝Ubuntu 
+  - [【開箱文】Raspberry Pi 400 介紹與 Ubuntu 系統安裝](https://www.circuspi.com/index.php/2021/02/09/raspberry-pi-400-ubuntu/)
 
 ### 學習各種linux安全工具
 - 【推薦書籍】
@@ -41,3 +51,4 @@
   - 適用於當容器數量增加，需要穩定容器環境，以及管理資源或權限分配的狀況
   - 使用minikube建置K8s叢集
   - 使用kind建置K8s叢集
+

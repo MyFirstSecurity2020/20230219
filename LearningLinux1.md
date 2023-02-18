@@ -59,8 +59,9 @@
 
 
 ### 其他有用指令
-- 👍👍file ==> 檢視檔案格式 file carter.jpg
-- 👍👍strings ==> 檢視檔案  
+- 👍👍file ==> 檢視檔案格式 ==> file carter.jpg
+- 👍👍strings ==> 檢視檔案 ==> 語法: strings [options] [files]  ==> strings XXX  | grep CTF
+  - [How to Use the strings Command on Linux](https://www.howtogeek.com/427805/how-to-use-the-strings-command-on-linux/) 
 - clear
 - less ==> hexdump carter.jpg | less
 - more ==> hexdump carter.jpg | more

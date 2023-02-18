@@ -102,7 +102,7 @@
 - 連線到遠端伺服器 telnet(不安全)  vs ssh(安全)
   - 範例 ==> ssh `-p 2200` lab@120.114.62.111 
   - [Linux 的 SSH 安全加密連線指令使用教學、設定檔配置範例](https://blog.gtwang.org/linux/ssh-command-tutorial-and-script-examples/) 
-- ifconfig ==> 用於顯示或設定網路設備。   ==> Windows 是用ipconfig
+- ifconfig ==> 用於顯示或設定網路設備。  `if==interface` ==> Windows 是用ipconfig 
 - ping: 檢測主機。
   - 執行 ping 指令會使用 ICMP 傳輸協定，發出要求回應的資訊
   - 若遠端主機的網路功能沒有問題，就會回應該資訊，因而得知該主機運作正常。
@@ -111,6 +111,8 @@
 - traceroute   [WINDOWS作業系統也有tracert] tracert www.google.com
   - 從你的電腦到google 經過多少router(路由器) ==>traceroute www.google.com [有很多節點不會顯示 是因為關掉ICMP] 
   - [Linux traceroute命令](https://www.runoob.com/linux/linux-comm-traceroute.html)
+- if`down`：關閉網路介面
+- if`up`：開啟網路介面
 
 ### 行程管理(porcess management)指令
 - 你寫的`程式(program)`執行時就成為`行程(porcess)`
@@ -127,6 +129,23 @@
   - [Linux procinfo命令](https://www.runoob.com/linux/linux-comm-procinfo.html) 
 - kill :刪除執行中的程式(行程)或工作。
   - [Linux kill命令](https://www.runoob.com/linux/linux-comm-kill.html) 
+- killall：按名稱殺死程式(行程)
+- pkill：按名稱和其他屬性殺死程式(行程)
+- top：顯示當前正在運行的程式(行程)
+- pgrep：按名稱和其他屬性查找程式(行程)
+- pidof：查找正在運行的程式(行程)的`行程編號Process ID(PID)`
+- pstree：顯示正在運行的行程的行程樹
+
+
+### 性能監控
+- sar：收集、報告或保存系統活動資訊
+- io`stat`：報告CPU統計資料和設備、分區輸入/輸出資訊
+- mp`stat`：報告CPU相關的統計資料
+- vm`stat`：報告虛擬記憶體(vm: virtual memory)統計
+- io`top`：進行I/O監控
+- tload：載入顯示系統平均負載
+- time：給出資源使用的時間
+- uptime：顯示系統已經運行的時間
 
 ### 軟體安裝與管理(software package management )
 - 不同的linux發行版本有不同的軟體安裝與管理指令

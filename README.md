@@ -1,11 +1,13 @@
 # 20230219 Linux資安技術入門
-# SecurityFoscusOnline2023 上課資訊
+- 本次課程採用實體資安教學模式以協助學生使用虛擬化技術學習linux
+- 完整的SecurityFoscusOnline2023課程 ~ 請參閱 [完整上課資訊20230211](https://github.com/MyFirstSecurity2020/20230211)
 # 上課模式
 - 請務必先聽完如何使用本課程與相關規範
-- 本課程採兩種模式進行:(1)預錄模式 (2)Google Meet線上直播模式
-- 此次課程主要採 (2)Google Meet線上直播模式,部分解題採預錄模式(就是錄影後,放在YOUTUBE讓你觀看學習的啦)
+- SecurityFoscusOnline2023課程採底下種模式進行:(1)預錄模式 (2)Google Meet線上直播模式 (3)實體資安教學模式
+- 此次課程主要採 (3)實體資安教學模式,部分解題採預錄模式(就是錄影後,放在YOUTUBE讓你觀看學習的啦)
+
 # 上課所使用的平台
-- [立馬點選加入線上上課平台(Google Meet)上課去](https://meet.google.com/anw-awov-hsw)
+- [立馬點選加入線上上課平台(Google Meet)上課去]()
   - 8:50開放,9:20關閉連結(遲到太久 ==>就不要參加| 以後會更嚴格: 遲到==>就不要參加)
   - 參與的觀摩教師可自行安排登入時間,也請聯繫小編
 - [CTF平台解題(平常沒開放~只有上課期間才會開放)](https://120.114.62.209/)
@@ -35,7 +37,7 @@
     - 另一種解法 請參閱 [如何在Word中快速顯示或隱藏所有隱藏的文本？](https://zh-tw.extendoffice.com/documents/word/906-word-show-hide-hidden-text.html) 
   - 【自行完成】{隱寫術101::STEG2_Secret in PDF}
 
-## A2_Linux資安技術入門 本課程使用Kali Linux進行
+## Linux資安技術入門 本課程使用Kali Linux進行
 - 預先作業:本課程使用虛擬機匯入Kali Linux進行教學
   - 步驟1:在你的電腦下載 [virtual box](https://www.virtualbox.org/wiki/Downloads) 並安裝完成 [Virtualbox安裝:YOUTUBE影片](https://youtu.be/FC0CX71aGnc)
   - 步驟2:點選資料下載點, 下載這些龐大的系統

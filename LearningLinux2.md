@@ -1,13 +1,15 @@
 # Learning Linux 2
 - Linux有許多咚咚可學 ~~ 底下提供一些建議供大家後續學習
 
-### 學習linux各種管理技術
+### 學習linux各種管理技術(Linux System Administration)
 - 使用者與群組管理
 - 系統管理與優化
 - 
 
 ### 學習各種linux伺服器架設與管理 + 安全強化技術
 - 建置你的網站伺服器(web server)
+  - LAMP（Linux+Apache Web+MySQL+PHP）LNMP（Linux+Nginx Web+MySQL+PHP）
+  - [LAMP + LNMP 網站架構與運維實戰張春曉](https://www.tenlong.com.tw/products/9787302579892?list_name=srh)  
 - 建置你的名稱解析服務伺服器(DNS server):bind
 - 建置你的DHCP伺服器(DHCP server):動態管理主機位址
 - 建置你的LDAP伺服器(LDAP server):

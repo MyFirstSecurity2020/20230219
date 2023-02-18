@@ -9,16 +9,29 @@
 ### 學習各種linux伺服器架設與管理 + 安全強化技術
 - 建置你的網站伺服器(web server)
 - 
+### 學習各種linux安全工具
+- 【推薦書籍】
+  - [LINUX FIREWALLS ：善用 NFTABLES 等超強工具捍衛 LINUX 防火牆的安全性, 4/e (中文版)](https://www.tenlong.com.tw/products/9789864344239?list_name=srh)
+  - [突破困境：資安開源工具應用（iT邦幫忙鐵人賽系列書）鄭郁霖（Jason Cheng） 著](https://www.tenlong.com.tw/products/9789864345465?list_name=srh)
+  - 👍[二進制分析實戰 Practical Binary Analysis](https://www.tenlong.com.tw/products/9787115556936?list_name=srh)
+  - 👍[實戰 Linux 系統數位鑑識 (Practical Linux Forensics: A Guide for Digital Investigators) Bruce Nikkel 著 江湖海 譯](https://www.tenlong.com.tw/products/9786263242876?list_name=srh)
+  - Kali linux與滲透測試 ~ 族繁不及備載 ~  請自行上網搜尋
 
 ### 準備考 Linux認證
+- Linux+ | LPIC Linux
+- Red Hat Linux
+  - [RHCSA/RHCE8紅帽Linux認證學習教程 段超飛](https://www.tenlong.com.tw/products/9787301334157?list_name=srh) 
 
 ### 學習linux shell programming
-- [臥龍小三 Linux Shell 程式設計與管理實務 [第三版]【暢銷回饋版】](https://www.tenlong.com.tw/products/9786263332539?list_name=srh)
-- [Linux 指令大全：工程師活用命令列技巧的常備工具書 (全新升級版) (The Linux Command Line : A Complete Introduction, 2/e)](https://www.tenlong.com.tw/products/9786263331075?list_name=srh)
-- [系統管理員懶人包｜Shell Script 自動化指令集 (Wicked Cool Shell Scripts)](https://www.tenlong.com.tw/products/9789864763672?list_name=srh)
+- 【推薦書籍】
+  - [臥龍小三 Linux Shell 程式設計與管理實務 [第三版]【暢銷回饋版】](https://www.tenlong.com.tw/products/9786263332539?list_name=srh)
+  - [Linux 指令大全：工程師活用命令列技巧的常備工具書 (全新升級版) (The Linux Command Line : A Complete Introduction, 2/e)](https://www.tenlong.com.tw/products/9786263331075?list_name=srh)
+  - [系統管理員懶人包｜Shell Script 自動化指令集 (Wicked Cool Shell Scripts)](https://www.tenlong.com.tw/products/9789864763672?list_name=srh)
 
 ### 學習linux 雲端技術
-- Docker
+- 虛擬化技術
+  - 【推薦書籍】[突破困境！企業開源虛擬化管理平台：使用 Proxmox Virtual Environment (iThome鐵人賽系列書) 鄭郁霖 (Jason Cheng) 著](https://www.tenlong.com.tw/products/9789864349616?list_name=srh)
+- 容器化技術Docker
   - 請持續關注 後續開設的課程 【linux 雲端技術與資安應用】
 - Kubernetes(K8s)
   - 可用來自動化部屬、擴展及管理多個容器（Container）的系統
